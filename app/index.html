@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+ <div class="wrapper">
+        <header class="header">
+            <div class="preheader header__preheader">
+                <div class="container">
+                    <div class="preheader__row">
+                        <div class="region preheader__region">
+                            <div class="region__btn">
+                                <svg class="region__icon" aria-hidden="true" width="11" height="15"><use xlink:href="images/symbol-defs.svg#icon-geo"></use></svg>
+                                <div class="region__text region__text--with-hover">
+                                    Ваш город: <span class="region__current-city">Москва</span>
+                                </div>
+                                <div class="region__chevron">
+                                    <svg  aria-hidden="true" width="8" height="12"><use xlink:href="images/symbol-defs.svg#icon-next-arrow"></use></svg>
+                                </div>
+
+                            </div>
+                            <div class="region__popup">
+                                <div class="region__text region__text--popup">
+                                    Ваш город: <span class="region__current-city">Москва</span>?
+                                </div>
+                                <div class="region__btn-container">
+                                    <button class="region__popup-btn region__popup-btn--true">
+                                        Да
+                                    </button>
+                                </div>
+                                <div class="region__btn-container">
+                                    <button class="region__popup-btn region__popup-btn--false">
+                                        Нет
+                                    </button>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <nav class="main-menu preheader__main-menu">
+                            <ul class="main-menu__list">
+                                <li class="main-menu__list-item">
+                                    <a href="#" class="main-menu__link" target="_blank">Доставка</a>
+                                </li>
+                                <li class="main-menu__list-item">
+                                    <a href="#" class="main-menu__link" target="_blank">Оплата</a>
+                                </li>
+                                <li class="main-menu__list-item">
+                                    <a href="#" class="main-menu__link" target="_blank">Возврат</a>
+                                </li>
+                                <li class="main-menu__list-item main-menu__list-item--parent">
+                                    <a href="#" class="main-menu__link" target="_blank">О нас
+                                        <svg  aria-hidden="true" width="8" height="12"><use xlink:href="images/symbol-defs.svg#icon-next-arrow"></use></svg>
+                                    </a>
+                                    <ul class="main-menu__child-list">
+                                        <li class="main-menu__child-list-item"><a href="#" target="_blank" class="main-menu__link">О компании </a></li>
+                                        <li class="main-menu__child-list-item"><a href="#" target="_blank" class="main-menu__link">Испытательная лаборатория</a></li>
+                                        <li class="main-menu__child-list-item"><a href="#" target="_blank" class="main-menu__link">Сертификаты</a></li>
+                                        <li class="main-menu__child-list-item"><a href="#" target="_blank" class="main-menu__link">Раскрытие информации</a></li>
+                                        <li class="main-menu__child-list-item"><a href="#" target="_blank" class="main-menu__link">Реквизиты</a></li>
+                                        <li class="main-menu__child-list-item"><a href="#" target="_blank" class="main-menu__link">Отзывы</a></li>
+                                    </ul>
+                                </li>
+                                <li class="main-menu__list-item">
+                                    <a href="#" class="main-menu__link" target="_blank">Контакты</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                        <div class="preheader__contacts">
+                            <a class="preheader__contacts-icon" href="mailto:sale@oao-sozvezdie.ru">
+                                <svg aria-hidden="true" width="16" height="14"><use xlink:href="images/symbol-defs.svg#icon-Post"></use></svg>
+                            </a>
+                            <a href="mailto:sale@oao-sozvezdie.ru">
+                                sale@oao-sozvezdie.ru
+                            </a>
+                        </div>
+                        <div class="preheader__contacts">
+                            <a class="preheader__contacts-icon" href="tel:84956171877">
+                                <svg  aria-hidden="true" width="16" height="14"><use xlink:href="images/symbol-defs.svg#icon-phone"></use></svg>
+                            </a>
+                            <a href="tel:84956171877">
+                                8 (495) 617-18-77       
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="container">
+                    <div class="main-header__row">
+                        <div class="main-header__logo logo">
+                            <img src="images/logo.svg" alt="">
+                        </div>
+                        <div class=" main-header__menu-catalog">
+                            <div class="menu-catalog">
+                                <a href="#" class="menu-catalog__btn">
+                                    <span class="menu-catalog__btn-icon">
+                                        <svg aria-hidden="true" width="21" height="20"><use xlink:href="images/symbol-defs.svg#icon-Catalog"></use></svg>
+                                    </span>
+                                    Каталог
+                                </a>
+                                <ul class="menu-catalog__list">
+                                    <li class="parent"><a href="#">Электроника <span>30 700 700</span></a>
+                                        <ul>
+                                            <li class="parent"><a href="#">Электронные 
+                                                компоненты <span>500 700</span></a>
+                                                <ul>
+                                                    <li class="parent"><a href="#">Электронные 
+                                                        компоненты <span>500 700</span></a>
+                                                        <ul>
+                                                            <li class="parent"><a href="#">Электронные 
+                                                                компоненты <span>500 700</span></a>
+                                                                <ul>
+                                                                    <li><a href="#">Электронные 
+                                                                        компоненты <span>500 700</span></a></li>
+                                                                    <li><a href="#">Электромеханические 
+                                                                        компоненты <span>700</span></a></li>
+                                                                    <li><a href="#">Акустические 
+                                                                        компоненты <span>500 700</span></a></li>
+                                                                    <li><a href="#">Оптоэлектроника 54 700</a></li>
+                                                                    <li><a href="#">Корпусные и установочные 
+                                                                        изделия <span>500 700</span></a></li>
+                                                                    <li><a href="#">Источники питания <span>500 700</span></a></li>
+                                                                    
+                        
+                        
+                        
+                        
+                        
+                                                                   
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="#">Электромеханические 
+                                                                компоненты <span>700</span></a></li>
+                                                            <li><a href="#">Акустические 
+                                                                компоненты <span>500 700</span></a></li>
+                                                            <li><a href="#">Оптоэлектроника 54 700</a></li>
+                                                            <li><a href="#">Корпусные и установочные 
+                                                                изделия <span>500 700</span></a></li>
+                                                            <li><a href="#">Источники питания <span>500 700</span></a>
+                                                            </li>
+                                                            
+                
+                
+                
+                
+                
+                                                           
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">Электромеханические 
+                                                        компоненты <span>700</span></a></li>
+                                                    <li><a href="#">Акустические 
+                                                        компоненты <span>500 700</span></a></li>
+                                                    <li><a href="#">Оптоэлектроника 54 700</a></li>
+                                                    <li><a href="#">Корпусные и установочные 
+                                                        изделия <span>500 700</span></a></li>
+                                                    <li><a href="#">Источники питания <span>500 700</span></a></li>
+                                                    
+        
+        
+        
+        
+        
+                                                   
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Электромеханические 
+                                                компоненты <span>700</span></a></li>
+                                            <li><a href="#">Акустические 
+                                                компоненты <span>500 700</span></a></li>
+                                            <li><a href="#">Оптоэлектроника 54 700</a></li>
+                                            <li><a href="#">Корпусные и установочные 
+                                                изделия <span>500 700</span></a></li>
+                                            <li><a href="#">Источники питания <span>500 700</span></a></li>
+                                            
+
+
+
+
+
+                                           
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Электроснабжение и СКС <span>700 900</span></a></li>
+                                    <li><a href="#">Оборудование инструмент <span>900</span></a></li>
+                                    <li><a href="#">Средства разработки <span>1 900</span></a></li>
+                                    <li><a href="#">Телекомуникация и связь <span>30 900</span></a></li>
+                                    <li><a href="#">Дом и сад <span>700</span></a></li>
+                                </ul>
+                            </div>
+                           
+
+                        </div>
+                        <div class="main-header__search search">
+                            <form class="search__form">
+                                <div class="search__params">
+                                    <div class="search__params-current">
+                                        <span>Везде</span>
+                                        <div class="region__chevron">
+                                            <svg  aria-hidden="true" width="8" height="12"><use xlink:href="images/symbol-defs.svg#icon-next-arrow"></use></svg>
+                                        </div>
+                                    </div>
+                                    <div class="search__params-box">
+                                        <div class="search__params-title">
+                                            Выберете раздел для поиска
+                                        </div>
+                                            <ul class="search__params-list">
+                                                <li class="search__params-list-item">
+                                                    <a href="#">Каталог</a>
+                                                </li>
+                                                <li class="search__params-list-item">
+                                                    <a href="#">Документация</a>
+                                                </li>
+                                            </ul>
+                                       
+                                    </div>
+                                </div>
+                                <input type="text" name="search" class="search__input" placeholder="Поиск по сайту">
+                                <button class="search__button search__button--remove">
+                                    <svg  aria-hidden="true" width="14" height="14"><use xlink:href="images/symbol-defs.svg#icon-Close"></use></svg>
+                                </button>
+                                <button class="search__button search__button--search">
+                                    <svg  aria-hidden="true" width="22" height="22"><use xlink:href="images/symbol-defs.svg#icon-Search"></use></svg>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="main-header__buttons">
+                            <div  class="main-header__button-container main-header__button-container--adaptive main-header__button-container--search-btn">
+                               
+                                <a href="#" class="main-header__button">
+                                    <svg  aria-hidden="true" width="22" height="22"><use xlink:href="images/symbol-defs.svg#icon-Search"></use></svg>
+                                </a>
+                            </div>
+                            <div  class="main-header__button-container">
+                                <a href="#" class="main-header__button">
+                                    <svg  aria-hidden="true" width="22" height="22"><use xlink:href="images/symbol-defs.svg#icon-compare"></use></svg>
+                                </a>
+                             
+                            </div>
+                            <div  class="main-header__button-container">
+                                <a href="#" class="main-header__button">
+                                    <svg  aria-hidden="true" width="22" height="22"><use xlink:href="images/symbol-defs.svg#icon-Favorite"></use></svg>
+                                </a>
+                             
+                            </div>
+                         
+                        
+                            <div  class="main-header__button-container">
+                                <a href="#" class="main-header__button main-header__button--active">
+                                    <svg  aria-hidden="true" width="26" height="22"><use xlink:href="images/symbol-defs.svg#icon-Cart"></use></svg>
+                                    <span class="main-header__button-value">5</span>
+                                </a>
+                               
+                               
+                             
+                            </div>
+                            <div  class="main-header__button-container">
+                                <a href="#" class="main-header__button">
+                                    <svg  aria-hidden="true" width="23" height="22"><use xlink:href="images/symbol-defs.svg#icon-Personal-area"></use></svg>
+                                </a>
+                                <div class="main-header__icon-menu">
+                                    <ul class="main-header__icon-menu-list">
+                                        <li>
+                                            <a href="#">   Личные данные</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Доставка</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Текущие заказы <span>(2)</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">История заказов <span> (2)</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Избранные товары <span>(2)</span> </a>
+                                        </li>
+                                    </ul>
+                                 
+                                    <div class="main-header__icon-menu-bottom">
+                                        <a href="#">Выход</a>
+                                    </div>
+
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <a  class="main-header__callback">
+                            Обратный звонок
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </main>
+        <footer class="footer">
+           <div class="footer__top">
+            <div class="container">
+                <div class="footer__row footer__row--top">
+                    <ul class="footer__top-menu">
+                        <li class="footer__top-menu-item"><a href="#" class="footer__top-menu-link">Электроника </a></li>
+                        <li class="footer__top-menu-item"><a href="#" class="footer__top-menu-link">Электроснабжение и СКС</a></li>
+                        <li class="footer__top-menu-item"><a href="#" class="footer__top-menu-link">Оборудование и инструменты</a></li>
+                    </ul>
+                    <div class="footer__logo">
+                        <img src="images/logo__footer.svg" alt="">
+                    </div>
+                    <ul class="footer__top-menu">
+                        <li class="footer__top-menu-item"><a href="#" class="footer__top-menu-link">Средства разработки</a></li>
+                        <li class="footer__top-menu-item"><a href="#" class="footer__top-menu-link">Телекоммуникации и связь</a></li>
+                        <li class="footer__top-menu-item"><a href="#" class="footer__top-menu-link">Дом и сад</a></li>
+                    </ul>
+                </div>
+            </div>
+           </div>
+           <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__row footer__row--bottom">
+                    <div class="footer__item footer__item--w33">
+                        <ul class="footer__bottom-menu">
+                            <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Доставка</a></li>
+                            <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Оплата</a></li>
+                            <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Возврат и обмен</a></li>
+                            <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Отзывы</a></li>
+                            <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Сертификаты</a></li>
+                            <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">О компании</a></li>
+                            <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Контакты</a></li>
+                            <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Раскрытие информации</a></li>
+                            <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Реквизиты</a></li>
+                            <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Политика конфиденциальности</a></li> 
+                            <!-- <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Новости</a></li> -->
+                            <!-- <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Статьи</a></li>
+
+               
+                          
+
+                            <li class="footer__bottom-menu-item"> <a class="footer__bottom-menu-item-link" href="#">Приглашаем к сотрудничеству</a></li> 
+                                -->
+                        </ul>
+                    </div>
+                    <div class="footer__item footer__item--w66">
+                        <div class="footer__contacts">
+                            <div class="footer__contacts-item">
+                                <div class="contact-item">
+                                    <div class="contact-item__icon">
+                                        <svg aria-hidden="true" width="18" height="23"><use xlink:href="images/symbol-defs.svg#icon-geo"></use></svg>
+                                    </div>
+                                    <div class="contact-item__info">
+                                        <div class="contact-item__text">
+                                            117105 г. Москва, Варшавское ш., д. 26, стр. 10
+                                        </div>
+                                        <div class="contact-item__link-container">
+                                            <a href="#">
+                                                Показать на карте
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__contacts-item">
+                                <div class="contact-item">
+                                   <div class="contact-item__icon">
+                                       <svg aria-hidden="true" width="24" height="23"><use xlink:href="images/symbol-defs.svg#icon-phone"></use></svg>
+                                   </div>
+                                   <div class="contact-item__info">
+                                       <div class="contact-item__text">
+                                           <a href="tel:84956171877">8 (495) 617-18-77</a>   <span class="contact-item__split">|</span>   <a href="tel:88002223877">8 (800) 222-38-77</a>
+                                           
+                                       </div>
+                                       <div class="contact-item__link-container">
+                                           <a href="#">
+                                               Обратный звонок
+                                           </a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                            <div class="footer__contacts-item">
+                                 <div class="contact-item">
+                                    <div class="contact-item__icon">
+                                        <svg aria-hidden="true" width="23" height="19"><use xlink:href="images/symbol-defs.svg#icon-Post"></use></svg>
+                                    </div>
+                                    <div class="contact-item__info">
+                                        <div class="contact-item__text">
+                                           <a href="mailto:sale@oao-sozvezdie.ru">
+                                            sale@oao-sozvezdie.ru
+                                           </a>
+                                          
+                                        </div>
+                                        <div class="contact-item__link-container">
+                                            <a href="#">  Написать на почту</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                            <div class="footer__contacts-item">
+                                 <div class="contact-item">
+                                    <div class="contact-item__icon">
+                                        <svg aria-hidden="true" width="24" height="23"><use xlink:href="images/symbol-defs.svg#icon-Clock"></use></svg>
+                                    </div>
+                                    <div class="contact-item__info">
+                                        <div class="contact-item__text">
+                                            Пн.- Чт.: 9:00-18:00    <span class="contact-item__split">|</span> 
+                                            Пт.: 9:00-17:00
+
+                                        </div>
+                                        <!-- <div class="contact-item__link-container">
+                                            <a href="#"></a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__contacts-item footer__contacts-item--last">
+                               <div class="social footer__social">
+                                   <ul class="social__list">
+                                       <li class="social__list-item">
+                                           <a href="#" class="social__link social__link--vk">
+                                            <svg aria-hidden="true" width="20" height="12"><use xlink:href="images/symbol-defs.svg#icon-VK"></use></svg>
+                                           </a>
+                                       </li>
+                                       <li class="social__list-item">
+                                           <a href="#" class="social__link social__link--inst">
+                                            <svg aria-hidden="true" width="16" height="16"><use xlink:href="images/symbol-defs.svg#icon-Instagramm"></use></svg>
+                                           </a>
+                                       </li>
+                                       <li class="social__list-item">
+                                        <a href="#" class="social__link social__link--fb" >
+                                         <svg aria-hidden="true" width="8" height="16"><use xlink:href="images/symbol-defs.svg#icon-fb"></use></svg>
+                                        </a>
+                                    </li>
+                                       <li class="social__list-item">
+                                           <a href="#" class="social__link social__link--yt">
+                                            <svg aria-hidden="true" width="16" height="13"><use xlink:href="images/symbol-defs.svg#icon-Youtube"></use></svg>
+                                           </a>
+                                       </li>
+                                      
+                                       <li class="social__list-item">
+                                           <a href="#" class="social__link social__link--twitter">
+                                            <svg aria-hidden="true" width="16" height="14"><use xlink:href="images/symbol-defs.svg#icon-twitter"></use></svg>
+                                           </a>
+                                       </li>
+                                   </ul>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </footer>
+ </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/mask.js"></script>
+    <script src="js/main.js"></script>
+  
+    
+</body>
+</html>
